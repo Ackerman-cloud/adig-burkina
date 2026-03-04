@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:/Users/hp/Documents/Personnal work/adig-images/\"*.docx)",
+      "Bash(npm run build)",
+      "Bash(\"C:/Users/hp/Documents/Personnal work/adig-burkina/src/components/Layout.tsx\":*)"
+    ]
+  }
+}
