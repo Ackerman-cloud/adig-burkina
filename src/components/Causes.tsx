@@ -12,7 +12,7 @@ const causes: Cause[] = [
   {
     id: 1,
     title: "Encadrement des malades mentaux",
-    description: "Soins sanitaires, hygiène corporelle et vestimentaire, appui alimentaire et réinsertion familiale des malades mentaux errant dans la province du Namentenga.",
+    description: "Soins sanitaires, hygiène corporelle et vestimentaire, appui alimentaire et réinsertion familiale des malades mentaux errants dans la province du Namentenga.",
     raised: 5000000,
     goal: 24680000,
     image: "/adig-sante-mentale.jpg",
@@ -42,7 +42,7 @@ const causes: Cause[] = [
     description: "Causeries éducatives, journées de reboisement et protection de forêts villageoises dans les villages de Belga, Bonam et Lilyala (110 hectares protégés).",
     raised: 200000,
     goal: 710000,
-    image: "/adig-communaute.jpg",
+    image: "/nature-tree.png",
     lastDonation: "il y a 2 jours"
   },
   {
@@ -60,7 +60,7 @@ const causes: Cause[] = [
     description: "Jardinage, fabrication de soumbala et beurre de karité pour les groupements féminins de l'association. Formation aux techniques agricoles modernes (cordons pierreux, zaï).",
     raised: 1050000,
     goal: 7050000,
-    image: "/adig-soins.jpg",
+    image: "/gardening.png",
     lastDonation: "il y a 1 jour"
   }
 ]

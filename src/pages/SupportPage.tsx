@@ -53,7 +53,7 @@ const SupportPage: React.FC = () => (
             <h3>Devenir bénévole</h3>
             <p style={{ color: '#4a5568', marginBottom: '1.25rem', lineHeight: 1.7 }}>
               Rejoignez notre équipe de bénévoles passionnés. Que vous soyez professionnel de santé,
-              éducateur, agronome, communicant ou simplement motivé, votre engagement compte.
+              éducateur, agent d'agriculture, communicant ou simplement motivé, votre engagement compte.
             </p>
             <ul className="contact-info-list">
               <li>

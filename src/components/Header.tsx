@@ -30,7 +30,7 @@ const Header: React.FC = () => {
 
         <div className={`nav-wrapper${menuOpen ? ' open' : ''}`}>
           <ul className="nav" onClick={() => setMenuOpen(false)}>
-            <li><NavLink to="/" className={linkClass} end>Accueil</NavLink></li>
+            <li><NavLink to="/" className={linkClass} end>ADIG (Accueil)</NavLink></li>
             <li><NavLink to="/apropos" className={linkClass}>À Propos</NavLink></li>
             <li><NavLink to="/projets" className={linkClass}>Nos Projets</NavLink></li>
             <li><NavLink to="/soutenir" className={linkClass}>Soutenir</NavLink></li>

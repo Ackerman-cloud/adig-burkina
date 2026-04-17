@@ -19,7 +19,7 @@ const About: React.FC<AboutProps> = () => {
               n° <strong>PNMT_0015</strong>.
             </p>
             <p style={{ marginBottom: '1.5rem' }}>
-              ADIG regroupe <strong>26 groupements</strong> (dont 16 groupements féminins et 10 mixtes), répartis dans les
+              ADIG se <strong>compose de 26 groupements</strong> (dont 16 groupements féminins et 10 mixtes), répartis dans les
               huit communes du Namentenga : Boala, Boulsa, Bouroum, Dargo, Nagbingou, Tougouri, Yalgo et Zeguedeguin.
               Ses domaines d'intervention couvrent la <strong>santé mentale</strong>, la <strong>santé</strong>,
               l'<strong>alphabétisation</strong>, l'<strong>environnement</strong>, l'<strong>élevage</strong>,
@@ -60,8 +60,8 @@ const About: React.FC<AboutProps> = () => {
           </div>
           <div className="about-image">
             <img
-              src="/adig-evenement.jpg"
-              alt="ADIG - Activités et événements"
+              src="/adig-groupe.jpg"
+              alt="ADIG - Photo de groupe - Équipe et membres"
             />
           </div>
         </div>

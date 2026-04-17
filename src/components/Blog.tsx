@@ -21,7 +21,7 @@ const blogPosts: BlogPost[] = [
   {
     id: 2,
     title: "Visite du chantier du futur centre d'accueil pour malades mentaux",
-    excerpt: "Des responsables, autorités et partenaires ont visité le terrain d'un hectare à Boulsa destiné à la construction d'un centre d'accueil et d'hébergement pour les malades mentaux errant dans la commune.",
+    excerpt: "Des responsables, autorités et partenaires ont visité le terrain d'un hectare à Boulsa destiné à la construction d'un centre d'accueil et d'hébergement pour les malades mentaux errants dans la commune.",
     date: "22 Février 2026",
     author: "Équipe ADIG",
     comments: 9,
@@ -30,7 +30,7 @@ const blogPosts: BlogPost[] = [
   {
     id: 3,
     title: "Soins, hygiène corporelle et vestimentaire pour les malades mentaux en milieu rural",
-    excerpt: "Les équipes d'ADIG continuent leurs tournées régulières pour apporter soins sanitaires, hygiène corporelle et vestimentaire aux malades mentaux errant dans les villages de la province du Namentenga.",
+    excerpt: "Les équipes d'ADIG continuent leurs tournées régulières pour apporter soins sanitaires, hygiène corporelle et vestimentaire aux malades mentaux errants dans les villages de la province du Namentenga.",
     date: "22 Février 2026",
     author: "Équipe ADIG",
     comments: 14,
