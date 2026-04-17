@@ -8,7 +8,7 @@ interface GalleryImage {
 const images: GalleryImage[] = [
   { src: '/adig-sante-mentale.jpg',  caption: 'Journée Mondiale de la Santé Mentale à Boulsa' },
   { src: '/adig-evenement.jpg',      caption: 'Visite officielle du chantier du centre d\'accueil' },
-  { src: '/adig-soins.jpg',          caption: 'Soins et hygiène pour les malades mentaux' },
+  { src: '/adig-soins.jpg',          caption: 'Soins, hygiène corporelle et vestimentaire pour les malades mentaux' },
   { src: '/adig-communaute.jpg',     caption: 'Visite et suivi en milieu communautaire' },
   { src: '/adig-consultation.jpg',   caption: 'Consultation et suivi des bénéficiaires' },
   { src: '/adig-rassemblement.jpg',  caption: 'Rassemblement communautaire ADIG' },

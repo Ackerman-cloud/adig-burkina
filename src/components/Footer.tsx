@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <h3>Contactez-nous</h3>
             <ul>
-              <li>📍 Boulsa, secteur 05 (Tangporé)<br />Province du Namentenga, Burkina Faso</li>
+              <li>📍 BP 292 Boulsa, secteur 05 (Tangporé)<br />Province du Namentenga, Burkina Faso</li>
               <li>📞 <a href="tel:+22670361097">+226 70 36 10 97</a></li>
               <li>📞 <a href="tel:+22679554320">+226 79 55 43 20</a></li>
               <li>💬 <a href="https://wa.me/22653861272">WhatsApp : +226 53 86 12 72</a></li>
@@ -53,8 +53,8 @@ const Footer: React.FC = () => {
 
         <div className="footer-bottom">
           <p>
-            © 2025 ADIG Guésbéogo — Récépissé PNMT_0015. Tous droits réservés. |
-            Développé avec ❤️ pour le développement durable
+            © 2025 ADIG Guésbéogo — Récépissé PNMT_0015. Tous droits réservés.<br />
+            <strong>« La Patrie ou la Mort nous Vaincrons »</strong>
           </p>
         </div>
       </div>

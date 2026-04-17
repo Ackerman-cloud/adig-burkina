@@ -59,7 +59,7 @@ const Contact: React.FC = () => {
                   <span className="contact-icon">📍</span>
                   <div>
                     <strong>Adresse</strong>
-                    <p>Boulsa, secteur 05 (Tangporé)<br />Province du Namentenga<br />Région du Centre-Nord, Burkina Faso</p>
+                    <p>BP 292 Boulsa, secteur 05 (Tangporé)<br />Province du Namentenga<br />Région du Centre-Nord, Burkina Faso</p>
                   </div>
                 </li>
                 <li>

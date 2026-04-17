@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 const previewProjects = [
   {
     title: 'Encadrement des malades mentaux',
-    description: 'Soins, hygiène et réinsertion familiale des malades mentaux errant dans la province du Namentenga.',
+    description: 'Soins, hygiène corporelle et vestimentaire et réinsertion familiale des malades mentaux errant dans la province du Namentenga.',
     image: '/adig-sante-mentale.jpg',
   },
   {
@@ -31,7 +31,7 @@ const previewNews = [
     image: '/adig-evenement.jpg',
   },
   {
-    title: 'Soins et hygiène pour les malades mentaux en milieu rural',
+    title: 'Soins, hygiène corporelle et vestimentaire pour les malades mentaux en milieu rural',
     date: '22 Février 2026',
     image: '/adig-soins.jpg',
   },
