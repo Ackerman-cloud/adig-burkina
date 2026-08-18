@@ -4,24 +4,26 @@ const partners = [
   'Haut-Commissariat du Namentenga',
   'Mairie de la Commune de Boulsa',
   'Ministère de la Santé du Burkina Faso',
-  'Ministère de la Solidarité et de l\'Action Humanitaire',
+  'Ministère de la Solidarité, de l\'Action Humanitaire et du Genre',
   'Ministère de la Justice et des Droits Humains',
   'FONAENF (Alphabétisation & Éducation Non Formelle)',
-  'FEM/ONG',
+  'FEM/ONG (Programme des Nations Unies)',
   'OCADES / RBC Kaya',
-  'Menschen Ohne Kentten — Allemagne',
+  'Menschen Ohne Kentten (MOK) — Allemagne',
   'Cercle des Amis de St. Camille — Allemagne',
+  'Sœurs pour Sœurs Tond laa Taaba (Ouagadougou)',
   'District Sanitaire de Boulsa',
   'SAPAD',
 ]
 
 const distinctions = [
   { year: '2019', label: 'Chevalier de l\'ordre du mérite de la santé et de l\'action sociale' },
-  { year: '2022', label: 'Ambassadeur pour la Paix Universelle' },
+  { year: '2022', label: 'Décoration au grade d\'Ambassadeur pour la Paix Universelle' },
   { year: '2017', label: 'Certificat de Reconnaissance — Ministère de l\'Administration Territoriale' },
-  { year: '2016', label: 'Convention de Partenariat — Ministère de la Solidarité' },
-  { year: '2017', label: 'Convention de Collaboration — Ministère de la Santé' },
-  { year: '2023', label: 'Convention de Collaboration — Ministère de la Justice' },
+  { year: '2018', label: 'Attestation de Reconnaissance — Commune de Tougouri' },
+  { year: '2024', label: 'Renouvellement Convention Partenariat — Ministère de la Solidarité' },
+  { year: '2023', label: 'Renouvellement Convention Collaboration — Ministère de la Santé' },
+  { year: '2023', label: 'Convention de Collaboration — Ministère de la Justice et des Droits Humains' },
 ]
 
 const Contact: React.FC = () => {

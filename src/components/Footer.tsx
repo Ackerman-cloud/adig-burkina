@@ -30,12 +30,11 @@ const Footer: React.FC = () => {
           <div className="footer-section">
             <h3>Nos Domaines</h3>
             <ul>
-              <li><Link to="/projets">Santé Mentale</Link></li>
-              <li><Link to="/projets">Santé & Sensibilisation</Link></li>
-              <li><Link to="/projets">Alphabétisation</Link></li>
-              <li><Link to="/projets">Environnement</Link></li>
-              <li><Link to="/projets">Élevage & Pisciculture</Link></li>
-              <li><Link to="/projets">Agriculture & Transformation</Link></li>
+              <li><Link to="/projets">Soins & Santé Mentale</Link></li>
+              <li><Link to="/projets">Centre d'Accueil & d'Hébergement</Link></li>
+              <li><Link to="/projets">Éducation & Alphabétisation</Link></li>
+              <li><Link to="/projets">Protection de l'Environnement</Link></li>
+              <li><Link to="/projets">Sensibilisation Santé</Link></li>
             </ul>
           </div>
 

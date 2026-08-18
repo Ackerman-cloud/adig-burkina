@@ -3,30 +3,30 @@ import Hero from '../components/Hero'
 
 const previewProjects = [
   {
-    title: 'Encadrement des malades mentaux',
-    description: 'Soins, hygiène corporelle et vestimentaire et réinsertion familiale des malades mentaux errants dans la province du Namentenga.',
-    image: '/adig-sante-mentale.jpg',
+    title: 'Soins & Encadrement des Malades Mentaux',
+    description: 'Soins médicaux, hygiène corporelle et vestimentaire, appui alimentaire et réinsertion familiale des malades mentaux errants dans la province du Namentenga.',
+    image: '/adig-soins.jpg',
   },
   {
-    title: 'Alphabétisation des populations',
-    description: 'Centres d\'alphabétisation (CFE, FTS, CBN2Jeune) pour l\'éducation non formelle en partenariat avec le FONAENF.',
-    image: '/adig-rassemblement.jpg',
+    title: 'Éducation & Alphabétisation',
+    description: 'Centres d\'alphabétisation (CFE, FTS, CBN2Jeunes) pour l\'éducation non formelle en partenariat avec le FONAENF. Plus de 1 920 personnes alphabétisées.',
+    image: '/adig-education-classe.jpg',
   },
   {
-    title: 'Élevage et Agriculture',
-    description: 'Embouche bovine, pisciculture, jardinage et transformation de produits locaux (soumbala, beurre de karité).',
-    image: '/adig-distribution.jpg',
+    title: 'Protection de l\'Environnement',
+    description: '110 ha de forêts villageoises protégées (Belga, Bonam, Lilyala), aménagement de 210 ha de cordons pierreux et zaï, et reboisement annuel.',
+    image: '/adig-environnement-reboisement.jpg',
   },
 ]
 
 const previewNews = [
   {
     title: 'Journée Mondiale de la Santé Mentale célébrée à Boulsa',
-    date: '10 Octobre 2024',
+    date: '10 Octobre 2024 / 26 Janvier 2025',
     image: '/adig-sante-mentale.jpg',
   },
   {
-    title: 'Visite du chantier du futur centre d\'accueil',
+    title: 'Visite du chantier du futur centre d\'accueil pour malades mentaux',
     date: '22 Février 2026',
     image: '/adig-evenement.jpg',
   },
@@ -46,8 +46,8 @@ const HomePage: React.FC = () => {
       <section className="section causes" id="projets-preview">
         <div className="container">
           <div className="section-title">
-            <h2>Nos Projets</h2>
-            <p>ADIG mène des actions concrètes dans 6 domaines d'intervention au Namentenga</p>
+            <h2>Nos Domaines d'Intervention</h2>
+            <p>ADIG concentre ses actions sur 3 piliers majeurs au bénéfice des populations du Namentenga</p>
           </div>
           <div className="causes-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
             {previewProjects.map((p, i) => (
@@ -72,8 +72,8 @@ const HomePage: React.FC = () => {
           <h2>À Propos d'ADIG Guésbéogo</h2>
           <p>
             Fondée en 2000, ADIG (<em>« regardons demain »</em> en Mooré) est implantée à Boulsa,
-            Province du Namentenga. Elle compte 26 groupements membres et a touché plus de 10 000
-            personnes bénéficiaires à travers ses programmes.
+            Province du Namentenga. Elle compte 20 membres actifs et 26 groupements partenaires,
+            et a accompagné plus de 10 000 bénéficiaires dont 461 malades mentaux et 1 920 personnes alphabétisées.
           </p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link to="/apropos" className="btn">Découvrir l'association</Link>

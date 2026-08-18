@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
         <h1>Association pour le Développement Intégré Guésbéogo</h1>
         <p>
           Depuis 2000, ADIG accompagne les populations vulnérables de la Province du Namentenga
-          à travers la santé mentale, l'alphabétisation, l'élevage, l'agriculture
+          à travers les soins et l'encadrement des malades mentaux, l'alphabétisation & l'éducation,
           et la protection de l'environnement.
         </p>
         <div className="hero-buttons">

@@ -78,17 +78,18 @@ const SupportPage: React.FC = () => (
 
         </div>
 
-        {/* Besoins 2025 */}
+        {/* Besoins 2026 */}
         <div className="contact-info-block" style={{ marginTop: '2rem' }}>
-          <h3>Besoins prioritaires 2025</h3>
+          <h3>Besoins prioritaires & Budget Prévisionnel 2026</h3>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1rem', marginTop: '0.5rem' }}>
             {[
-              { label: 'Encadrement malades mentaux', amount: '24 680 000 FCFA' },
-              { label: 'Centre d\'accueil (construction)', amount: '87 958 488 FCFA' },
-              { label: 'Élevage & Pisciculture', amount: '11 928 000 FCFA' },
-              { label: 'Alphabétisation', amount: '9 320 762 FCFA' },
-              { label: 'Agriculture & Transformation', amount: '7 050 000 FCFA' },
-              { label: 'Transport (motos)', amount: '3 000 000 FCFA' },
+              { label: 'Centre d\'accueil & d\'hébergement (construction)', amount: '128 867 217 FCFA' },
+              { label: 'Encadrement psychosocial & soins (malades mentaux)', amount: '21 920 000 FCFA' },
+              { label: 'Équipement & Électrification solaire du siège', amount: '16 550 000 FCFA' },
+              { label: 'Alphabétisation & éducation non formelle', amount: '5 702 446 FCFA' },
+              { label: 'Mobilité (motos & tricycle de suivi/réinsertion)', amount: '4 500 000 FCFA' },
+              { label: 'Sensibilisation santé & hygiène', amount: '1 250 000 FCFA' },
+              { label: 'Protection de l\'environnement & reboisement', amount: '710 000 FCFA' },
             ].map((item, i) => (
               <div key={i} style={{
                 background: '#EBF6FC',
@@ -105,7 +106,7 @@ const SupportPage: React.FC = () => (
             ))}
           </div>
           <p style={{ color: '#5a7080', fontSize: '0.88rem', marginTop: '1rem' }}>
-            Budget total 2025 : <strong>149 210 750 FCFA</strong> dont 147 397 250 FCFA à rechercher auprès de partenaires.
+            Budget prévisionnel total 2026 : <strong>205 673 163 FCFA</strong> dont <strong>204 059 663 FCFA</strong> de fonds à rechercher auprès des partenaires techniques et financiers.
           </p>
         </div>
       </div>
