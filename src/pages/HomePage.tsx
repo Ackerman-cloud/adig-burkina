@@ -114,8 +114,8 @@ const HomePage: React.FC = () => {
             <p>Nos actions en images</p>
           </div>
           <div className="gallery-grid" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
-            {['/adig-sante-mentale.jpg', '/adig-evenement.jpg', '/adig-soins.jpg', '/adig-communaute.jpg',
-              '/adig-rassemblement.jpg', '/adig-g1.jpg', '/adig-g5.jpg', '/adig-g8.jpg'].map((src, i) => (
+            {['/adig-education-classe.jpg', '/adig-environnement-reboisement.jpg', '/adig-soins.jpg', '/adig-environnement-cordons.jpg',
+              '/adig-sante-mentale.jpg', '/adig-evenement.jpg', '/adig-environnement-zai.jpg', '/adig-education.jpg'].map((src, i) => (
               <div key={i} className="gallery-item" style={{ pointerEvents: 'none' }}>
                 <img src={src} alt={`Photo ADIG ${i + 1}`} loading="lazy" />
               </div>
