@@ -5,12 +5,12 @@ const previewProjects = [
   {
     title: 'Soins & Encadrement des Malades Mentaux',
     description: 'Soins médicaux, hygiène corporelle et vestimentaire, appui alimentaire et réinsertion familiale des malades mentaux errants dans la province du Namentenga.',
-    image: '/adig-salle-consultation.jpg',
+    image: '/adig-consultation-medicale.jpg',
   },
   {
     title: 'Éducation & Alphabétisation',
     description: 'Centres d\'alphabétisation (CFE, FTS, CBN2Jeunes) pour l\'éducation non formelle en partenariat avec le FONAENF. Plus de 1 920 personnes alphabétisées.',
-    image: '/adig-education-classe.jpg',
+    image: '/adig-education.jpg',
   },
   {
     title: 'Protection de l\'Environnement',
@@ -23,7 +23,7 @@ const previewNews = [
   {
     title: 'Journée Mondiale de la Santé Mentale célébrée à Boulsa',
     date: '10 Octobre 2024 / 26 Janvier 2025',
-    image: '/adig-sante-mentale.jpg',
+    image: '/adig-point-presse.jpg',
   },
   {
     title: 'Visite du chantier du futur centre d\'accueil pour malades mentaux',
@@ -33,7 +33,7 @@ const previewNews = [
   {
     title: 'Distribution de vivres et assistance aux malades mentaux',
     date: '22 Février 2026',
-    image: '/adig-distribution.jpg',
+    image: '/adig-dotation-communautaire.jpg',
   },
 ]
 
@@ -114,7 +114,7 @@ const HomePage: React.FC = () => {
             <p>Nos actions en images</p>
           </div>
           <div className="gallery-grid" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
-            {['/adig-salle-consultation.jpg', '/adig-ceremonie-remise.jpg', '/adig-environnement-reboisement.jpg', '/adig-education-classe.jpg',
+            {['/adig-consultation-medicale.jpg', '/adig-ceremonie-remise.jpg', '/adig-environnement-reboisement.jpg', '/adig-remise-officielle.jpg',
               '/adig-stock-vivres.jpg', '/adig-evenement.jpg', '/adig-dotation-communautaire.jpg', '/adig-preparatifs-soins.jpg'].map((src, i) => (
               <div key={i} className="gallery-item" style={{ pointerEvents: 'none' }}>
                 <img src={src} alt={`Photo ADIG ${i + 1}`} loading="lazy" />

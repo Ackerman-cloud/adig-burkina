@@ -10,7 +10,7 @@ const causes: Cause[] = [
     id: 1,
     title: "Encadrement & Soins des malades mentaux",
     description: "Soins médicaux, hygiène corporelle et vestimentaire mensuelle, appui alimentaire et réinsertion familiale des malades mentaux errants dans la province du Namentenga. Déjà 461 malades accompagnés.",
-    image: "/adig-salle-consultation.jpg",
+    image: "/adig-consultation-medicale.jpg",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const causes: Cause[] = [
     id: 3,
     title: "Éducation & Alphabétisation des populations",
     description: "Ouverture et animation de centres d'alphabétisation (CFE, FTS, CBN2Jeunes) en partenariat avec le FONAENF dans les 8 communes du Namentenga. Déjà 1 920 personnes alphabétisées.",
-    image: "/adig-education-classe.jpg",
+    image: "/adig-education.jpg",
   },
   {
     id: 4,

@@ -16,7 +16,7 @@ const blogPosts: BlogPost[] = [
     date: "10 Octobre 2024",
     author: "Équipe ADIG",
     comments: 18,
-    image: "/adig-sante-mentale.jpg"
+    image: "/adig-point-presse.jpg"
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const blogPosts: BlogPost[] = [
     date: "22 Février 2026",
     author: "Équipe ADIG",
     comments: 14,
-    image: "/adig-distribution.jpg"
+    image: "/adig-dotation-communautaire.jpg"
   }
 ]
 

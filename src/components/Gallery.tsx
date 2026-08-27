@@ -6,9 +6,8 @@ interface GalleryImage {
 }
 
 const images: GalleryImage[] = [
-  { src: '/adig-salle-consultation.jpg',         caption: 'Salle de consultation médicale et suivi des soins' },
-  { src: '/adig-preparatifs-soins.jpg',          caption: 'Matériel médical, tests de dépistage et équipements de santé' },
   { src: '/adig-consultation-medicale.jpg',      caption: 'Bureau de consultation médicale et prescriptions' },
+  { src: '/adig-preparatifs-soins.jpg',          caption: 'Matériel médical, tests de dépistage et équipements de santé' },
   { src: '/adig-ceremonie-remise.jpg',           caption: 'Cérémonie officielle de remise de dons lors de la Journée des Malades' },
   { src: '/adig-distinction-officielle.jpg',      caption: 'Remise officielle de distinctions et de reconnaissances' },
   { src: '/adig-remise-officielle.jpg',          caption: 'Remise de vivres et matériels par les responsables d\'ADIG' },
@@ -17,19 +16,13 @@ const images: GalleryImage[] = [
   { src: '/adig-allocution-medias.jpg',          caption: 'Sensibilisation et allocution devant les médias' },
   { src: '/adig-point-presse.jpg',               caption: 'Point de presse et présentation des dons d\'assistance' },
   { src: '/adig-discours-officiels.jpg',          caption: 'Interventions des autorités et partenaires locaux' },
-  { src: '/adig-education-classe.jpg',           caption: 'Séance d\'alphabétisation sous abri avec les bénéficiaires' },
   { src: '/adig-environnement-reboisement.jpg',  caption: 'Journée de reboisement et pépinière communautaire' },
   { src: '/adig-environnement-cordons.jpg',      caption: 'Aménagement de cordons pierreux pour la protection des sols' },
   { src: '/adig-environnement-zai.jpg',          caption: 'Travaux communautaires et techniques traditionnelles de zaï' },
-  { src: '/adig-sante-mentale.jpg',              caption: 'Journée Mondiale de la Santé Mentale à Boulsa' },
   { src: '/adig-evenement.jpg',                  caption: 'Visite officielle du chantier du centre d\'accueil' },
   { src: '/adig-education.jpg',                  caption: 'Activités d\'alphabétisation et éducation non formelle' },
-  { src: '/adig-evenement-2020.jpg',             caption: 'Célébration de la Journée de la Santé Mentale 2020' },
   { src: '/adig-rassemblement.jpg',              caption: 'Rassemblement communautaire ADIG' },
-  { src: '/adig-distribution.jpg',               caption: 'Distribution de vivres aux malades mentaux' },
   { src: '/adig-g1.jpg',                         caption: 'Activités sur le terrain — Namentenga' },
-  { src: '/adig-g6.jpg',                         caption: 'Accompagnement des familles bénéficiaires' },
-  { src: '/adig-g7.jpg',                         caption: 'Actions de solidarité en province du Namentenga' },
 ]
 
 const Gallery: React.FC = () => {
