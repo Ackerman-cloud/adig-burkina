@@ -5,7 +5,7 @@ const previewProjects = [
   {
     title: 'Soins & Encadrement des Malades Mentaux',
     description: 'Soins médicaux, hygiène corporelle et vestimentaire, appui alimentaire et réinsertion familiale des malades mentaux errants dans la province du Namentenga.',
-    image: '/adig-soins.jpg',
+    image: '/adig-salle-consultation.jpg',
   },
   {
     title: 'Éducation & Alphabétisation',
@@ -31,9 +31,9 @@ const previewNews = [
     image: '/adig-evenement.jpg',
   },
   {
-    title: 'Soins, hygiène corporelle et vestimentaire pour les malades mentaux errants',
+    title: 'Distribution de vivres et assistance aux malades mentaux',
     date: '22 Février 2026',
-    image: '/adig-soins.jpg',
+    image: '/adig-distribution.jpg',
   },
 ]
 
@@ -114,8 +114,8 @@ const HomePage: React.FC = () => {
             <p>Nos actions en images</p>
           </div>
           <div className="gallery-grid" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
-            {['/adig-education-classe.jpg', '/adig-environnement-reboisement.jpg', '/adig-soins.jpg', '/adig-environnement-cordons.jpg',
-              '/adig-sante-mentale.jpg', '/adig-evenement.jpg', '/adig-environnement-zai.jpg', '/adig-education.jpg'].map((src, i) => (
+            {['/adig-salle-consultation.jpg', '/adig-ceremonie-remise.jpg', '/adig-environnement-reboisement.jpg', '/adig-education-classe.jpg',
+              '/adig-stock-vivres.jpg', '/adig-evenement.jpg', '/adig-dotation-communautaire.jpg', '/adig-preparatifs-soins.jpg'].map((src, i) => (
               <div key={i} className="gallery-item" style={{ pointerEvents: 'none' }}>
                 <img src={src} alt={`Photo ADIG ${i + 1}`} loading="lazy" />
               </div>

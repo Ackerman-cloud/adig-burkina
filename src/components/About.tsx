@@ -1,6 +1,4 @@
-interface AboutProps {}
-
-const About: React.FC<AboutProps> = () => {
+const About: React.FC = () => {
   return (
     <section className="section" id="apropos">
       <div className="container">

@@ -29,12 +29,12 @@ const blogPosts: BlogPost[] = [
   },
   {
     id: 3,
-    title: "Soins, hygiène corporelle et vestimentaire pour les malades mentaux en milieu rural",
-    excerpt: "Les équipes d'ADIG continuent leurs tournées régulières pour apporter soins sanitaires, hygiène corporelle et vestimentaire aux malades mentaux errants dans les villages de la province du Namentenga.",
+    title: "Distribution de vivres et assistance aux malades mentaux en milieu rural",
+    excerpt: "Les équipes d'ADIG poursuivent leurs tournées régulières pour apporter un appui alimentaire, une assistance et un soutien continu aux personnes vulnérables et malades mentaux dans les communes du Namentenga.",
     date: "22 Février 2026",
     author: "Équipe ADIG",
     comments: 14,
-    image: "/adig-soins.jpg"
+    image: "/adig-distribution.jpg"
   }
 ]
 

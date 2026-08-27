@@ -10,7 +10,7 @@ const causes: Cause[] = [
     id: 1,
     title: "Encadrement & Soins des malades mentaux",
     description: "Soins médicaux, hygiène corporelle et vestimentaire mensuelle, appui alimentaire et réinsertion familiale des malades mentaux errants dans la province du Namentenga. Déjà 461 malades accompagnés.",
-    image: "/adig-soins.jpg",
+    image: "/adig-salle-consultation.jpg",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const causes: Cause[] = [
     id: 5,
     title: "Sensibilisation Santé & Mobilisation Sociale",
     description: "Causeries éducatives et émissions radio pour la lutte contre les IST/VIH/SIDA, la tuberculose, le paludisme, le tabagisme et les boissons frelatées dans les communes et établissements secondaires.",
-    image: "/adig-consultation.jpg",
+    image: "/adig-preparatifs-soins.jpg",
   }
 ]
 
