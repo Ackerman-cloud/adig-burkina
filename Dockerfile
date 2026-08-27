@@ -20,6 +20,9 @@ RUN npm run build
 # ─────────────────────────────────────────────
 FROM nginx:alpine AS runner
 
+# Installer curl pour le healthcheck
+RUN apk add --no-cache curl
+
 # Supprimer la config nginx par défaut
 RUN rm /etc/nginx/conf.d/default.conf
 
@@ -32,7 +35,7 @@ COPY --from=builder /app/dist /usr/share/nginx/html
 EXPOSE 80
 
 # Vérification de l'état de santé du conteneur
-HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget --no-verbose --tries=1 --spider http://localhost/health || exit 1
+HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
+  CMD curl -fsS http://127.0.0.1:80/health || exit 1
 
 CMD ["nginx", "-g", "daemon off;"]
