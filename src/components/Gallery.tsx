@@ -8,6 +8,9 @@ interface GalleryImage {
 const images: GalleryImage[] = [
   { src: '/adig-consultation-medicale.jpg',      caption: 'Bureau de consultation médicale et prescriptions' },
   { src: '/adig-preparatifs-soins.jpg',          caption: 'Matériel médical, tests de dépistage et équipements de santé' },
+  { src: '/adig-assistance-repas.jpg',           caption: 'Appui alimentaire et distribution de repas aux bénéficiaires' },
+  { src: '/adig-transport-vivres.jpg',           caption: 'Préparation et transport des denrées pour les tournées sur le terrain' },
+  { src: '/adig-tournee-distribution.png',       caption: 'Tournée mobile à moto pour l\'assistance aux malades et personnes vulnérables' },
   { src: '/adig-ceremonie-remise.jpg',           caption: 'Cérémonie officielle de remise de dons lors de la Journée des Malades' },
   { src: '/adig-distinction-officielle.jpg',      caption: 'Remise officielle de distinctions et de reconnaissances' },
   { src: '/adig-remise-officielle.jpg',          caption: 'Remise de vivres et matériels par les responsables d\'ADIG' },
